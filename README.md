@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# To setup the project, run in project root directory
 
-Things you may want to cover:
+  * bundle
+  * rails db:create
+  * rails db:migrate
 
-* Ruby version
+# To run the project, run in project root directory
+  * rails s
 
-* System dependencies
+# To test the project, run in project root directory
+  * bundle exec rspec
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  # Tests are written for Todo creation. One test checks the       creation of valid record. And the other test checks if the record of invalid todo creation fails. Used this test because app is all based on todos and todo creation is the first step.
